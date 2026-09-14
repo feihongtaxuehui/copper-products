@@ -4,7 +4,7 @@
  * ============================================================
  */
 window.SITE_CONFIG = {
-  companyNameZh: "恒铸铜合金科技有限公司",
+  companyNameZh: "鸿元机械有限公司",
   companyNameEn: "HENGZHU COPPER ALLOY TECHNOLOGY CO., LTD.",
   brandShort: "HENGZHU COPPER",
 
