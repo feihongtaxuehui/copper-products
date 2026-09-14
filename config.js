@@ -12,9 +12,9 @@ window.SITE_CONFIG = {
 
   phone: "13834361397",
   email: "sales@example.com",
-  wechat: "138346361397",
+  wechat: "13834361397",
   whatsapp: "13834361397",
-  whatsappDigits: "138343613967",
+  whatsappDigits: "13834361397",
   address: "中国 · 山西省 · 交城县",
 
   years: "20+",
