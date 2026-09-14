@@ -12,8 +12,8 @@ window.SITE_CONFIG = {
 
   phone: "13834361397",
   email: "sales@example.com",
-  wechat: "HZ-Copper",
-  whatsapp: "+13834361397",
+  wechat: "138346361397",
+  whatsapp: "13834361397",
   whatsappDigits: "138343613967",
   address: "中国 · 山西省 · 交城县",
 
