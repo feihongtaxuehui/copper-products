@@ -1,0 +1,23 @@
+把真实图片放到这个文件夹，保持以下文件名即可自动显示：
+
+产品：
+product-bushing.jpg
+product-bearing.jpg
+product-gear.jpg
+product-wearplate.jpg
+product-nut.jpg
+product-ring.jpg
+product-pump.jpg
+product-custom.jpg
+
+设备：
+cnc-machining-center.jpg   CNC加工中心
+cnc-lathe.jpg              CNC数控车床
+gear-machine.jpg           蜗轮/齿轮加工设备
+inspection.jpg             检测设备/质检现场
+
+建议：
+- 图片宽度 1200px 以上
+- 产品尽量使用白底或干净工业背景
+- 设备尽量使用真实厂房照片
+- 不放图片也不会破图，会显示专业占位块

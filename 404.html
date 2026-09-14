@@ -1,0 +1,9 @@
+<!doctype html><meta charset="utf-8"><title>Redirecting...</title>
+<script>
+(function(){
+  var p = location.pathname.split('/').filter(Boolean);
+  var base = p.length ? '/' + p[0] + '/' : '/';
+  location.replace(location.origin + base);
+})();
+</script>
+<p>正在返回首页…</p>
