@@ -1,4 +1,4 @@
-const VERSION = "copperpro-github-v2";
+const VERSION = "copperpro-github-v2.1";
 const CACHE = VERSION;
 
 // 全部使用相对路径，兼容 https://用户名.github.io/仓库名/
