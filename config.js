@@ -10,12 +10,12 @@ window.SITE_CONFIG = {
 
   sloganZh: "铜套、蜗轮、滑板、轴瓦、铜螺母及非标铜件一站式制造。",
 
-  phone: "+86 138 0000 0000",
+  phone: "13834361397",
   email: "sales@example.com",
   wechat: "HZ-Copper",
-  whatsapp: "+86 138 0000 0000",
-  whatsappDigits: "8613800000000",
-  address: "中国 · XX省 · XX市工业园区（请修改为真实地址）",
+  whatsapp: "+13834361397",
+  whatsappDigits: "138343613967",
+  address: "中国 · 山西省 · 交城县",
 
   years: "20+",
   equipments: "50+",
