@@ -17,7 +17,7 @@ window.SITE_CONFIG = {
   whatsappDigits: "13834361397",
   address: "中国 · 山西省 · 交城县",
 
-  years: "20+",
+  years: "20年+",
   equipments: "50+",
   countries: "30+",
 
