@@ -5,13 +5,13 @@
  */
 window.SITE_CONFIG = {
   companyNameZh: "鸿元机械有限公司",
-  companyNameEn: "HENGZHU COPPER ALLOY TECHNOLOGY CO., LTD.",
-  brandShort: "HENGZHU COPPER",
+  companyNameEn: "HONGYUAN COPPER ALLOY TECHNOLOGY CO., LTD.",
+  brandShort: "HONGYUAN COPPER",
 
   sloganZh: "铜套、蜗轮、滑板、轴瓦、铜螺母及非标铜件一站式制造。",
 
   phone: "13834361397",
-  email: "sales@example.com",
+  email: "88139389@qq.com",
   wechat: "13834361397",
   whatsapp: "13834361397",
   whatsappDigits: "13834361397",
@@ -41,7 +41,7 @@ window.SITE_CONFIG = {
       desc: "直筒、法兰、石墨、自润滑及大型铜套，适用于轴类支撑、耐磨和滑动工况。",
       price: "¥65 – ¥105 / kg",
       tags: ["按图定制", "锡青铜", "铝青铜", "CNC精加工"],
-      image: "./assets/images/product-bushing.jpg"
+      image: "./assets/images/product-bushing.png"
     },
     {
       id: "bearing",
@@ -51,7 +51,7 @@ window.SITE_CONFIG = {
       desc: "适用于高负载、低速和冲击工况，可做剖分式、整体式和大型异形结构。",
       price: "¥68 – ¥110 / kg",
       tags: ["滑动轴承", "高负载", "大型件", "异形件"],
-      image: "./assets/images/product-bearing.jpg"
+      image: "./assets/images/product-bearing.png"
     },
     {
       id: "wormgear",
@@ -61,7 +61,7 @@ window.SITE_CONFIG = {
       desc: "适用于减速机、升降设备及传动系统，可按模数、齿数、孔径和材质加工。",
       price: "¥72 – ¥118 / kg",
       tags: ["减速机", "齿轮加工", "锡青铜", "非标"],
-      image: "./assets/images/product-gear.jpg"
+      image: "./assets/images/product-gear.png"
     },
     {
       id: "wearplate",
@@ -71,7 +71,7 @@ window.SITE_CONFIG = {
       desc: "适用于重载导向、摩擦副和工程机械，可加工油槽、石墨孔及安装孔。",
       price: "¥70 – ¥115 / kg",
       tags: ["耐磨", "重载", "石墨孔", "CNC铣削"],
-      image: "./assets/images/product-wearplate.jpg"
+      image: "./assets/images/product-wearplate.png"
     },
     {
       id: "nut",
@@ -81,7 +81,7 @@ window.SITE_CONFIG = {
       desc: "梯形丝杆螺母、升降机螺母、机床传动螺母及各类非标螺纹件。",
       price: "¥75 – ¥125 / kg",
       tags: ["梯形螺纹", "丝杆", "机床", "按图加工"],
-      image: "./assets/images/product-nut.jpg"
+      image: "./assets/images/product-nut.png"
     },
     {
       id: "ring",
@@ -91,7 +91,7 @@ window.SITE_CONFIG = {
       desc: "适用于机械连接、轴向定位、密封和大型设备配套，可按尺寸与材质加工。",
       price: "¥68 – ¥112 / kg",
       tags: ["铜环", "法兰", "大型件", "按图"],
-      image: "./assets/images/product-ring.jpg"
+      image: "./assets/images/product-ring.png"
     },
     {
       id: "pump",
@@ -101,7 +101,7 @@ window.SITE_CONFIG = {
       desc: "叶轮、阀座、轴套、耐磨环等泵阀铜合金零件，可按工况选择材料。",
       price: "¥78 – ¥135 / kg",
       tags: ["泵阀", "叶轮", "阀座", "耐腐蚀"],
-      image: "./assets/images/product-pump.jpg"
+      image: "./assets/images/product-pump.png"
     },
     {
       id: "custom",
@@ -111,7 +111,7 @@ window.SITE_CONFIG = {
       desc: "支持来图、来样、小批量和大型异形件加工，适合机械设备配套和维修替换。",
       price: "¥65 – ¥150+ / kg",
       tags: ["来图定制", "来样加工", "小批量", "大型件"],
-      image: "./assets/images/product-custom.jpg"
+      image: "./assets/images/product-custom.png"
     }
   ]
 };
