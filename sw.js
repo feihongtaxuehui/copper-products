@@ -28,25 +28,55 @@ self.addEventListener("activate", event => {
   self.clients.claim();
 });
 
+/*
+ * 网络优先：
+ * 每次打开页面优先获取最新文件。
+ * 网络失败时才读取离线缓存。
+ */
 self.addEventListener("fetch", event => {
-  if(event.request.method !== "GET") return;
+    const request = event.request;
 
-  event.respondWith(
-    caches.match(event.request).then(cached => {
-      const network = fetch(event.request).then(response => {
-        if(response && response.ok){
-          const copy = response.clone();
-          caches.open(CACHE).then(cache => cache.put(event.request, copy)).catch(()=>{});
+    if (request.method !== "GET") return;
+
+    const url = new URL(request.url);
+    const scope = new URL(self.registration.scope);
+
+    // 只处理当前项目的资源
+    if (url.origin !== scope.origin ||
+        !url.pathname.startsWith(scope.pathname)) {
+        return;
+    }
+
+    event.respondWith((async () => {
+        const cache = await caches.open(CACHE);
+
+        try {
+            // 禁止使用浏览器旧 HTTP 缓存
+            const response = await fetch(request, {
+                cache: "no-store"
+            });
+
+            if (response.ok) {
+                await cache.put(
+                    request,
+                    response.clone()
+                );
+            }
+
+            return response;
+
+        } catch (error) {
+            // 断网时使用离线缓存
+            const cached = await cache.match(request);
+
+            if (cached) return cached;
+
+            if (request.mode === "navigate") {
+                const home = await cache.match("./index.html");
+                if (home) return home;
+            }
+
+            return Response.error();
         }
-        return response;
-      }).catch(() => null);
-
-      if(cached){
-        network.catch(()=>{});
-        return cached;
-      }
-
-      return network.then(response => response || caches.match("./index.html"));
-    })
-  );
+    })());
 });
