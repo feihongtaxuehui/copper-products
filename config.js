@@ -39,7 +39,7 @@ window.SITE_CONFIG = {
       name: "铜套 · 铜衬套",
       en: "BRONZE BUSHINGS",
       desc: "直筒、法兰、石墨、自润滑及大型铜套，适用于轴类支撑、耐磨和滑动工况。",
-      price: "¥65 – ¥105 / kg",
+      price: "¥75 – ¥220+ / kg",
       tags: ["按图定制", "锡青铜", "铝青铜", "CNC精加工"],
       image: "./assets/images/product-bushing.png"
     },
@@ -49,7 +49,7 @@ window.SITE_CONFIG = {
       name: "铜轴瓦 · 滑动轴承",
       en: "BRONZE BEARINGS",
       desc: "适用于高负载、低速和冲击工况，可做剖分式、整体式和大型异形结构。",
-      price: "¥68 – ¥110 / kg",
+      price: "¥78 – ¥230+ / kg",
       tags: ["滑动轴承", "高负载", "大型件", "异形件"],
       image: "./assets/images/product-bearing.png"
     },
@@ -59,7 +59,7 @@ window.SITE_CONFIG = {
       name: "铜蜗轮 · 铜齿轮",
       en: "BRONZE WORM GEARS",
       desc: "适用于减速机、升降设备及传动系统，可按模数、齿数、孔径和材质加工。",
-      price: "¥72 – ¥118 / kg",
+      price: "¥82 – ¥242+ / kg",
       tags: ["减速机", "齿轮加工", "锡青铜", "非标"],
       image: "./assets/images/product-gear.png"
     },
@@ -69,7 +69,7 @@ window.SITE_CONFIG = {
       name: "铜滑板 · 铜滑块",
       en: "WEAR PLATES & BLOCKS",
       desc: "适用于重载导向、摩擦副和工程机械，可加工油槽、石墨孔及安装孔。",
-      price: "¥70 – ¥115 / kg",
+      price: "¥80 – ¥235+ / kg",
       tags: ["耐磨", "重载", "石墨孔", "CNC铣削"],
       image: "./assets/images/product-wearplate.png"
     },
@@ -79,7 +79,7 @@ window.SITE_CONFIG = {
       name: "铜螺母 · 丝杆螺母",
       en: "BRONZE NUTS",
       desc: "梯形丝杆螺母、升降机螺母、机床传动螺母及各类非标螺纹件。",
-      price: "¥75 – ¥125 / kg",
+      price: "¥85 – ¥236+ / kg",
       tags: ["梯形螺纹", "丝杆", "机床", "按图加工"],
       image: "./assets/images/product-nut.png"
     },
@@ -89,7 +89,7 @@ window.SITE_CONFIG = {
       name: "铜环 · 铜法兰",
       en: "BRONZE RINGS & FLANGES",
       desc: "适用于机械连接、轴向定位、密封和大型设备配套，可按尺寸与材质加工。",
-      price: "¥68 – ¥112 / kg",
+      price: "¥78 – ¥243+ / kg",
       tags: ["铜环", "法兰", "大型件", "按图"],
       image: "./assets/images/product-ring.png"
     },
@@ -99,7 +99,7 @@ window.SITE_CONFIG = {
       name: "泵阀铜件",
       en: "PUMP & VALVE PARTS",
       desc: "叶轮、阀座、轴套、耐磨环等泵阀铜合金零件，可按工况选择材料。",
-      price: "¥78 – ¥135 / kg",
+      price: "¥88 – ¥263+ / kg",
       tags: ["泵阀", "叶轮", "阀座", "耐腐蚀"],
       image: "./assets/images/product-pump.png"
     },
@@ -109,7 +109,7 @@ window.SITE_CONFIG = {
       name: "非标铜合金零件",
       en: "CUSTOM COPPER PARTS",
       desc: "支持来图、来样、小批量和大型异形件加工，适合机械设备配套和维修替换。",
-      price: "¥65 – ¥150+ / kg",
+      price: "¥75 – ¥236+ / kg",
       tags: ["来图定制", "来样加工", "小批量", "大型件"],
       image: "./assets/images/product-custom.png"
     }
